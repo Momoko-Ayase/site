@@ -1,0 +1,13 @@
+.fa-bluesky {
+  display: inline-block !important;
+  width: 1.3em !important;
+  height: 1em;
+  vertical-align: -0.25em !important; 
+  background-color: currentColor;
+  -webkit-mask: url('/assets/bluesky.svg') no-repeat center / contain;
+  mask: url('/assets/bluesky.svg') no-repeat center / contain;
+}
+
+.fa-brands.fa-bluesky::before {
+    content: none !important;
+}

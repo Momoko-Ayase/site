@@ -1,0 +1,11 @@
+.footer-cc-logo {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: currentColor;
+    -webkit-mask: url('/assets/cc-by-nc-sa.svg') no-repeat center / contain;
+    mask: url('/assets/cc-by-nc-sa.svg') no-repeat center / contain;
+}
+
+.footer-cc-logo::before {
+    display: none !important;
+}
